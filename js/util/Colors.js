@@ -6,7 +6,7 @@
      * This is a layer that displays a tile grid exported from the tiled editor.
      * @param {Object} arc - The angle, in degrees, of how wide this petal should be.
      */
-    sftl.Colors = sftl.Colors || new function Colors () { // jshint ignore:line
+    barcodes.Colors = barcodes.Colors || new function Colors () { // jshint ignore:line
 
         var _this = this;
 
@@ -232,6 +232,10 @@
 
         _this.hexToBgrInt = function(hex){
             return _hexToInt(_this.rgbToBgrHex(_this.hexToRgb('#C7B496')));
+        };
+
+        _this.rgbToBgrInt = function(rgbObj){
+            return _hexToInt(_this.rgbToBgrHex(rgbObj));
         };
 
         /**
