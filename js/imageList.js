@@ -1,4 +1,6 @@
 barcodes.imageList = [
+	"_bruisey"
+/*
 	"Avatar2",
 	"ContreTemps1",
 	"ContreTemps2",
@@ -47,4 +49,5 @@ barcodes.imageList = [
 	"Alien2",
 	"Allegretto1",
 	"Allegretto2"
+	*/
 ];

@@ -15,8 +15,8 @@
 
     function _loadImage(index){
     	_img = new Image();
-		//_img.addEventListener('load', _convertWholeImage, false);
-    	_img.addEventListener('load', _convertRandomTenth, false);
+		_img.addEventListener('load', _convertWholeImage, false);
+    	//_img.addEventListener('load', _convertRandomTenth, false);
     	_img.src = 'images/'+barcodes.imageList[index]+'.png';
     	_img.num = index;
     }
